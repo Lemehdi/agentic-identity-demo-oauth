@@ -19,8 +19,8 @@ The workload authenticates to Anthropic using **Idira** as the OIDC provider. No
 8. [Step-by-Step: Anthropic Console Setup](#8-step-by-step-anthropic-console-setup)
 9. [Run the Demo](#9-run-the-demo)
 10. [What You See When It Runs](#10-what-you-see-when-it-runs)
-11. [Troubleshooting Reference](#13-troubleshooting-reference)
-12. [Security Notes](#14-security-notes)
+11. [Troubleshooting Reference](#11-troubleshooting-reference)
+12. [Security Notes](#12-security-notes)
 
 ---
 
