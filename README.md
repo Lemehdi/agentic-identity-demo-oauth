@@ -19,10 +19,8 @@ The workload authenticates to Anthropic using **Idira** as the OIDC provider. No
 8. [Step-by-Step: Anthropic Console Setup](#8-step-by-step-anthropic-console-setup)
 9. [Run the Demo](#9-run-the-demo)
 10. [What You See When It Runs](#10-what-you-see-when-it-runs)
-11. [v1 vs v2](#11-v1-vs-v2)
-12. [Tips & Challenges (Build Journal)](#12-tips--challenges-build-journal)
-13. [Troubleshooting Reference](#13-troubleshooting-reference)
-14. [Security Notes](#14-security-notes)
+11. [Troubleshooting Reference](#13-troubleshooting-reference)
+12. [Security Notes](#14-security-notes)
 
 ---
 
@@ -401,7 +399,7 @@ The demo has two phases, paced by pressing **Enter**:
 
 ---
 
-## 13. Troubleshooting Reference
+## 11. Troubleshooting Reference
 
 | Symptom | Likely cause | Fix |
 |---------|-------------|-----|
@@ -420,7 +418,7 @@ curl -s -X POST "https://tenantID.id.cyberark.cloud/oauth2/token/YOUR_APP_ID" \
 
 ---
 
-## 14. Security Notes
+## 12. Security Notes
 
 This is a **demo**. For production:
 
