@@ -3,7 +3,7 @@
 
 The workload authenticates to Anthropic using **Idira** as the OIDC provider. No `sk-ant-...` API key is stored anywhere. Every token is short-lived and cryptographically bound to the workload's identity.
 
-> **Note on scope.** v1 is a **pure-Python** application — there is **no Docker and no SPIRE** here. SPIRE Server / SPIRE Agent / Docker attestation belong to **v2**. In v1 the workload proves its identity with an OAuth2 **client credentials** grant against Idira. If you're looking for the SPIFFE/SPIRE version, see `agentic-identity-demo-spiffe/`. A side-by-side comparison is in [Section 11](#11-v1-vs-v2).
+> **Note on scope.** v1 is a **pure-Python** application — there is **no Docker and no SPIRE** here. SPIRE Server / SPIRE Agent / Docker attestation belong to **v2**. In v1 the workload proves its identity with an OAuth2 **client credentials** grant against Idira. If you're looking for the SPIFFE/SPIRE version, see `agentic-identity-demo-spiffe/`.
 
 ---
 
