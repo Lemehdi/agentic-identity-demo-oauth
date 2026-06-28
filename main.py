@@ -243,7 +243,7 @@ def run_agent_demo(alert: str, user_sub: str, access_token: str, workload_identi
         f"  ⚖️  [bold]Compliance:[/bold] Every automated decision is traceable — no anonymous agent action\n\n"
         f"[bold]→ No Operator reviewed this. Full accountability. No ambiguity.[/bold][/green]",
         border_style="green",
-        title="[bold green]Accountability (v2)[/bold green]",
+        title="[bold green]Accountability (v1)[/bold green]",
     ))
 
 
