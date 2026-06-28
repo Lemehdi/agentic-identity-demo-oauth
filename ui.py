@@ -23,7 +23,7 @@ console = Console()
 def banner():
     console.print()
     console.print(Panel.fit(
-        "[bold white]Agentic AI Identity Security — v2[/bold white]\n"
+        "[bold white]Agentic AI Identity Security — v1[/bold white]\n"
         "[dim]Workload Identity Federation  ·  Idira  ·  No Static Secrets[/dim]\n"
         "[dim]RFC 8693 Token Exchange  ·  JWT Actor Chains  ·  Zero Trust for AI Agents[/dim]\n\n"
         "[dim italic]by Elmehdi Aabad — Identity Security[/dim italic]",
