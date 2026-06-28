@@ -22,18 +22,9 @@ TOKEN_TTL   = 300                            # 5-minute tokens
 
 class SecurityTokenService:
     REGISTRY = {
-        "Orchestration-Agent": {
-            "workload":         "k8s://gov/orchestration-deployment",
-            "allowed_targets":  ["Verification-Agent"],
-        },
-        "Verification-Agent": {
-            "workload":         "k8s://gov/verification-deployment",
-            "allowed_targets":  ["Approval-Agent"],
-        },
-        "Approval-Agent": {
-            "workload":         "k8s://gov/approval-deployment",
-            "allowed_targets":  ["eligibility-api", "payment-api"],
-        },
+        "Orchestration-Agent": {"allowed_targets": ["Verification-Agent"]},
+        "Verification-Agent":  {"allowed_targets": ["Approval-Agent"]},
+        "Approval-Agent":      {"allowed_targets": ["eligibility-api", "payment-api"]},
     }
 
     def __init__(self):
